@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li><a href="index.html">Task1</a></li>
+        <li><a href="Task2.html">Task2</a></li>
+        <li><a href="Task3.html">Task3</a></li>
+        <li><a href="Task4.html">Task4</a></li>
+        <li><a href="Task5.html">Task5</a></li>
+        <li><a href="Task6.html">Task6</a></li>
+        <li><a href="Task7.html">Task7</a></li>
+    </ul>
+    <script>
+        
+    //   Task 4
+    var exampleArr = [1, 2, 3, 1, 2];
+    var newArr = [];
+    for(var i = 0; i < exampleArr.length; i++){
+        newArr.indexOf(exampleArr[i]) == -1? newArr[newArr.length] = exampleArr[i] : null;
+    }
+    alert(newArr);
+    </script>
+</body>
+</html>
